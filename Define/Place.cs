@@ -1,0 +1,65 @@
+public enum Place // TypeDefIndex: 10672
+{
+	// Fields
+	public int value__; // 0x0
+	public const Place None = -1;
+	public const Place Field = 0;
+	public const Place Police = 1;
+	public const Place Hospital = 2;
+	public const Place BlackSmith = 3;
+	public const Place Shop = 4;
+	public const Place Restaurant = 5;
+	public const Place Hotel = 6;
+	public const Place Bakery = 7;
+	public const Place Carpenter = 8;
+	public const Place Detective = 9;
+	public const Place CrystalShop = 10;
+	public const Place Monsterhut = 11;
+	public const Place FlowerShop = 13;
+	public const Place Relics = 14;
+	public const Place Home1 = 17;
+	public const Place Home2 = 18;
+	public const Place Home3 = 19;
+	public const Place Home4 = 20;
+	public const Place FreeHome = 21;
+	public const Place BigTreePlaza = 22;
+	public const Place Bridge = 23;
+	public const Place Dungeon1 = 24;
+	public const Place Lake = 25;
+	public const Place Beach = 26;
+	public const Place EventSpace1 = 27;
+	public const Place WalkStart01 = 28;
+	public const Place EastGate = 29;
+	public const Place Lake02 = 30;
+	public const Place MAX = 26;
+	public const Place WalkStart02 = 31;
+	public const Place WalkStart03 = 32;
+	public const Place WalkStart04 = 33;
+	public const Place Rp_Police_F_00 = 34;
+	public const Place Rp_Police_F_01 = 35;
+	public const Place Rp_Police_R_00 = 36;
+	public const Place Rp_Detective_00 = 37;
+	public const Place Rp_Shop_00 = 38;
+	public const Place Rp_Shop_01 = 39;
+	public const Place Rp_Shop_02 = 40;
+	public const Place Rp_Shop_03 = 41;
+	public const Place Rp_Carpenter_00 = 42;
+	public const Place Rp_Carpenter_01 = 43;
+	public const Place Rp_Hotel_00 = 44;
+	public const Place Rp_Restaurant_00 = 45;
+	public const Place Rp_Restaurant_01 = 46;
+	public const Place Rp_MainStreet_00 = 47;
+	public const Place Rp_MainStreet_01 = 48;
+	public const Place Rp_MainStreet_02 = 49;
+	public const Place Rp_MainStreet_03 = 50;
+	public const Place Rp_BigTree_00 = 51;
+	public const Place Rp_BigTree_01 = 52;
+	public const Place Rp_BigTree_02 = 53;
+	public const Place ScarletRoom = 60;
+	public const Place HOME_TAG = 100;
+	public const Place FAVORITE_TAG = 101;
+	public const Place Home_Villa_01 = 110;
+	public const Place Home_Villa_02 = 111;
+	public const Place Home_Villa_03 = 112;
+}
+
