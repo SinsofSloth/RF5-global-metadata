@@ -4,3 +4,39 @@ internal enum Int16Enum // TypeDefIndex: 372
 	public short value__; // 0x0
 }
 
+internal enum Int16Enum // TypeDefIndex: 372
+{
+	// Fields
+	public short value__; // 0x0
+}
+
+internal enum Int16Enum // TypeDefIndex: 372
+{
+	// Fields
+	public short value__; // 0x0
+}
+
+internal enum Int16Enum // TypeDefIndex: 372
+{
+	// Fields
+	public short value__; // 0x0
+}
+
+internal enum Int16Enum // TypeDefIndex: 372
+{
+	// Fields
+	public short value__; // 0x0
+}
+
+internal enum Int16Enum // TypeDefIndex: 372
+{
+	// Fields
+	public short value__; // 0x0
+}
+
+internal enum Int16Enum // TypeDefIndex: 372
+{
+	// Fields
+	public short value__; // 0x0
+}
+
