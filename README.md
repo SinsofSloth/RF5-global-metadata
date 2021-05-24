@@ -1,3 +1,6 @@
 # RF5-global-metadata
-RF5 Filesystem based on global-metadata.dat
 Recreated from RF5's global-metadata.dat using [Il2CppDumper](https://github.com/Perfare/Il2CppDumper/)
+
+Note:
+
+Files that were not in a namespace were placed in ``_no_namespace``. This repo only contains the function signature and model data. 
