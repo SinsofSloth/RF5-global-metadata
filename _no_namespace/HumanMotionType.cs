@@ -1,0 +1,62 @@
+public enum HumanMotionType // TypeDefIndex: 7075
+{
+	// Fields
+	public int value__; // 0x0
+	public const HumanMotionType None = -1;
+	public const HumanMotionType Common = 0;
+	public const HumanMotionType Item = 1;
+	public const HumanMotionType Weapon_OneHandSword = 2;
+	public const HumanMotionType Weapon_TwoHandSword = 3;
+	public const HumanMotionType Weapon_Spear = 4;
+	public const HumanMotionType Weapon_Axe = 5;
+	public const HumanMotionType Weapon_Hammer = 6;
+	public const HumanMotionType Weapon_TwinSword = 7;
+	public const HumanMotionType Weapon_Fist = 8;
+	public const HumanMotionType Weapon_Wand = 9;
+	public const HumanMotionType FarmTool_Hoe = 10;
+	public const HumanMotionType FarmTool_Pot = 11;
+	public const HumanMotionType FarmTool_Sickle = 12;
+	public const HumanMotionType FarmTool_Hammer = 13;
+	public const HumanMotionType FarmTool_Axe = 14;
+	public const HumanMotionType FarmTool_Rod = 15;
+	public const HumanMotionType FarmTool_Brush = 16;
+	public const HumanMotionType FarmTool_Scissors = 17;
+	public const HumanMotionType FarmTool_Loupe = 18;
+	public const HumanMotionType FarmTool_Seed = 19;
+	public const HumanMotionType Grapple = 20;
+	public const HumanMotionType HandCuffs = 21;
+	public const HumanMotionType RA_RoundBreak = 22;
+	public const HumanMotionType RA_MindThrust = 23;
+	public const HumanMotionType RA_PowerWave = 24;
+	public const HumanMotionType RA_DashSlash = 25;
+	public const HumanMotionType RA_RushAttack = 26;
+	public const HumanMotionType RA_Nagaresandan = 27;
+	public const HumanMotionType RA_Kousinnokou = 28;
+	public const HumanMotionType RA_Musinken = 29;
+	public const HumanMotionType RA_Issinittou = 30;
+	public const HumanMotionType RA_Senpuken = 31;
+	public const HumanMotionType RA_SkyHurricane = 32;
+	public const HumanMotionType RA_Stragglereaper = 33;
+	public const HumanMotionType RA_MillionsStrike = 34;
+	public const HumanMotionType RA_Acceleratordisaster = 35;
+	public const HumanMotionType RA_ThousandThrust = 36;
+	public const HumanMotionType RA_GigaSwing = 37;
+	public const HumanMotionType RA_StardustUpper = 38;
+	public const HumanMotionType RA_TornadoSwing = 39;
+	public const HumanMotionType RA_GrandImpact = 40;
+	public const HumanMotionType RA_TeraSwing = 41;
+	public const HumanMotionType RA_Syunzin = 42;
+	public const HumanMotionType RA_Rasen = 43;
+	public const HumanMotionType RA_Rekkuu = 44;
+	public const HumanMotionType RA_Unretu = 45;
+	public const HumanMotionType RA_Soutotu = 46;
+	public const HumanMotionType RA_UpperCut = 47;
+	public const HumanMotionType RA_DoubleKick = 48;
+	public const HumanMotionType RA_Nekodamasi = 49;
+	public const HumanMotionType RA_Syukutihou = 50;
+	public const HumanMotionType RA_Seikenntyuudanduki = 51;
+	public const HumanMotionType RA_Hyakuretuken = 52;
+	public const HumanMotionType RA_Sacron = 53;
+	public const HumanMotionType Length = 54;
+}
+

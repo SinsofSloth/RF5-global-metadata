@@ -1,0 +1,69 @@
+public enum OccuredType // TypeDefIndex: 7209
+{
+	// Fields
+	public int value__; // 0x0
+	public const OccuredType None = 0;
+	public const OccuredType PlayerLv = 1;
+	public const OccuredType StartDate = 2;
+	public const OccuredType CloseDate = 3;
+	public const OccuredType CompleteNum = 4;
+	public const OccuredType Equipment = 5;
+	public const OccuredType ItemPossess = 6;
+	public const OccuredType LoveLv = 7;
+	public const OccuredType HP = 8;
+	public const OccuredType StoryFlag = 9;
+	public const OccuredType ScriptFlag = 10;
+	public const OccuredType OrderComplete_Other = 11;
+	public const OccuredType OrderComplete_Prisila = 12;
+	public const OccuredType OrderComplete_Lucy = 13;
+	public const OccuredType OrderComplete_Scalet = 14;
+	public const OccuredType OrderComplete_Fuca = 15;
+	public const OccuredType OrderComplete_Beatris = 16;
+	public const OccuredType OrderComplete_Rudomira = 17;
+	public const OccuredType OrderComplete_Matin = 18;
+	public const OccuredType OrderComplete_Cecil = 19;
+	public const OccuredType OrderComplete_Murakumo = 20;
+	public const OccuredType OrderComplete_Ryuka = 21;
+	public const OccuredType OrderComplete_Rainhalt = 22;
+	public const OccuredType OrderComplete_Lucs = 23;
+	public const OccuredType OrderComplete_Elche = 24;
+	public const OccuredType OrderComplete_Viviage = 25;
+	public const OccuredType OrderComplete_Heinz = 26;
+	public const OccuredType OrderComplete_Randlf = 27;
+	public const OccuredType OrderComplete_Yuki = 28;
+	public const OccuredType OrderComplete_Simone = 29;
+	public const OccuredType OrderComplete_Misasagi = 30;
+	public const OccuredType OrderComplete_Terry = 31;
+	public const OccuredType OrderComplete_Rivia = 32;
+	public const OccuredType OrderComplete_Riviasiron = 33;
+	public const OccuredType OrderComplete_Ladia = 34;
+	public const OccuredType OrderComplete_Lavadia = 35;
+	public const OccuredType OrderComplete_Dog = 36;
+	public const OccuredType OrderComplete_Julian = 37;
+	public const OccuredType OrderComplete_Hina = 38;
+	public const OccuredType OrderComplete_Baby = 39;
+	public const OccuredType OrderComplete_ChildBoy = 40;
+	public const OccuredType OrderComplete_ChildGirl = 41;
+	public const OccuredType OrderComplete_Guest1 = 42;
+	public const OccuredType OrderComplete_Guest2 = 43;
+	public const OccuredType OrderComplete_MediumBoss = 44;
+	public const OccuredType OrderComplete_Boss = 45;
+	public const OccuredType OrderComplete_All = 46;
+	public const OccuredType OrderComplete_Start = 11;
+	public const OccuredType OrderComplete_End = 46;
+	public const OccuredType OrderComplete_Npc_Start = 12;
+	public const OccuredType OrderComplete_Npc_End = 46;
+	public const OccuredType Marriage = 51;
+	public const OccuredType Story1 = 52;
+	public const OccuredType Story2 = 53;
+	public const OccuredType Story3 = 54;
+	public const OccuredType Story4 = 55;
+	public const OccuredType Story5 = 56;
+	public const OccuredType Story6 = 57;
+	public const OccuredType Story7 = 58;
+	public const OccuredType Story8 = 59;
+	public const OccuredType Story9 = 60;
+	public const OccuredType Num = 61;
+	public const OccuredType OrderComplete_Npc_Num = 34;
+}
+

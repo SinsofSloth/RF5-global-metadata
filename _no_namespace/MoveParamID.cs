@@ -1,0 +1,83 @@
+[Serializable]
+public enum MoveParamID // TypeDefIndex: 7092
+{
+	// Fields
+	public int value__; // 0x0
+	public const MoveParamID Default = 0;
+	public const MoveParamID Human = 1;
+	public const MoveParamID Ork = 2;
+	public const MoveParamID Goblin = 3;
+	public const MoveParamID Troll = 4;
+	public const MoveParamID Hornet = 5;
+	public const MoveParamID Spider = 6;
+	public const MoveParamID Panther = 7;
+	public const MoveParamID Wolf = 8;
+	public const MoveParamID Baffamo = 9;
+	public const MoveParamID Cokehohho = 10;
+	public const MoveParamID Chirori = 11;
+	public const MoveParamID Duck = 12;
+	public const MoveParamID Elepan = 13;
+	public const MoveParamID Flower = 14;
+	public const MoveParamID BigMash = 15;
+	public const MoveParamID Sheila = 16;
+	public const MoveParamID Ignis = 17;
+	public const MoveParamID Ghost = 18;
+	public const MoveParamID Monsterbox = 19;
+	public const MoveParamID Fairy = 20;
+	public const MoveParamID Slime = 21;
+	public const MoveParamID Mocomoco = 22;
+	public const MoveParamID Mocomoco_02 = 23;
+	public const MoveParamID Mocomoco_03 = 24;
+	public const MoveParamID Golem = 25;
+	public const MoveParamID MiniDragon = 26;
+	public const MoveParamID Palmcat = 27;
+	public const MoveParamID Salene = 28;
+	public const MoveParamID Pengi = 29;
+	public const MoveParamID Kerori = 30;
+	public const MoveParamID Cat = 31;
+	public const MoveParamID Dog = 32;
+	public const MoveParamID Wizard = 33;
+	public const MoveParamID Insect = 34;
+	public const MoveParamID Griffon = 35;
+	public const MoveParamID YasaiMonster = 36;
+	public const MoveParamID Kyubi = 37;
+	public const MoveParamID Kamereon = 38;
+	public const MoveParamID Hasibirokou = 39;
+	public const MoveParamID GansekiDragon = 40;
+	public const MoveParamID SkullDragon = 41;
+	public const MoveParamID Cerberus = 42;
+	public const MoveParamID Kurage = 43;
+	public const MoveParamID Hekatonkeil = 44;
+	public const MoveParamID Mummy = 45;
+	public const MoveParamID Yadokari = 46;
+	public const MoveParamID Audmura = 47;
+	public const MoveParamID Harinezumi = 48;
+	public const MoveParamID Aries = 49;
+	public const MoveParamID Reviatan = 50;
+	public const MoveParamID Basilisk = 51;
+	public const MoveParamID Inosisi = 52;
+	public const MoveParamID Deadtree = 53;
+	public const MoveParamID GhostHorseKnight = 54;
+	public const MoveParamID Sasquatch = 55;
+	public const MoveParamID Aracne = 56;
+	public const MoveParamID Ouroboros = 57;
+	public const MoveParamID Kraken = 58;
+	public const MoveParamID WoodGolem = 59;
+	public const MoveParamID DragonSister = 60;
+	public const MoveParamID LastBoss = 61;
+	public const MoveParamID Gandage = 62;
+	public const MoveParamID GateEnemy = 63;
+	public const MoveParamID Kyubi_friend = 64;
+	public const MoveParamID Hasibirokou_friend = 65;
+	public const MoveParamID Cerberus_friend = 66;
+	public const MoveParamID Kurage_friend = 67;
+	public const MoveParamID Hekatonkeil_friend = 68;
+	public const MoveParamID Audmura_friend = 69;
+	public const MoveParamID Harinezumi_friend = 70;
+	public const MoveParamID Aries_friend = 71;
+	public const MoveParamID Deadtree_friend = 72;
+	public const MoveParamID Sasquatch_friend = 73;
+	public const MoveParamID Aracne_friend = 74;
+	public const MoveParamID WoodGolem_friend = 75;
+}
+

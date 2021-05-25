@@ -1,0 +1,25 @@
+public enum CROP_TYPE // TypeDefIndex: 7317
+{
+	// Fields
+	public int value__; // 0x0
+	public const CROP_TYPE RF4_CROP_TYPE_HARVEST = 1;
+	public const CROP_TYPE RF4_CROP_TYPE_COL = 2;
+	public const CROP_TYPE RF4_CROP_TYPE_EARTH_Z = 4;
+	public const CROP_TYPE RF4_CROP_TYPE_GRASS = 8;
+	public const CROP_TYPE RF4_CROP_TYPE_CULTIVATE = 16;
+	public const CROP_TYPE RF4_CROP_TYPE_ROCK = 32;
+	public const CROP_TYPE RF4_CROP_TYPE_WOOD = 64;
+	public const CROP_TYPE RF4_CROP_TYPE_FLOWER = 128;
+	public const CROP_TYPE RF4_CROP_TYPE_VEGETABLE = 256;
+	public const CROP_TYPE RF4_CROP_TYPE_TREE = 512;
+	public const CROP_TYPE RF4_CROP_TYPE_DUNG = 1024;
+	public const CROP_TYPE RF4_CROP_TYPE_SP = 4096;
+	public const CROP_TYPE RF4_CROP_TYPE_SU = 8192;
+	public const CROP_TYPE RF4_CROP_TYPE_FA = 16384;
+	public const CROP_TYPE RF4_CROP_TYPE_WI = 32768;
+	public const CROP_TYPE RF4_CROP_TYPE_BAD_SP = 65536;
+	public const CROP_TYPE RF4_CROP_TYPE_BAD_SU = 131072;
+	public const CROP_TYPE RF4_CROP_TYPE_BAD_FA = 262144;
+	public const CROP_TYPE RF4_CROP_TYPE_BAD_WI = 524288;
+}
+

@@ -1,0 +1,74 @@
+public enum ActorID // TypeDefIndex: 10751
+{
+	// Fields
+	public int value__; // 0x0
+	public const ActorID None = -1;
+	public const ActorID act000 = 0;
+	public const ActorID act001 = 1;
+	public const ActorID act002 = 2;
+	public const ActorID act003 = 3;
+	public const ActorID act004 = 4;
+	public const ActorID act005 = 5;
+	public const ActorID act006 = 6;
+	public const ActorID act007 = 7;
+	public const ActorID act008 = 8;
+	public const ActorID act009 = 9;
+	public const ActorID act010 = 10;
+	public const ActorID act011 = 11;
+	public const ActorID act012 = 12;
+	public const ActorID act013 = 13;
+	public const ActorID act014 = 14;
+	public const ActorID act015 = 15;
+	public const ActorID act016 = 16;
+	public const ActorID act017 = 17;
+	public const ActorID act018 = 18;
+	public const ActorID act019 = 19;
+	public const ActorID act020 = 20;
+	public const ActorID act021 = 21;
+	public const ActorID act022 = 22;
+	public const ActorID act023 = 23;
+	public const ActorID act024 = 24;
+	public const ActorID act025 = 25;
+	public const ActorID act026 = 26;
+	public const ActorID act027 = 27;
+	public const ActorID act028 = 28;
+	public const ActorID act029 = 29;
+	public const ActorID act030 = 30;
+	public const ActorID act031 = 31;
+	public const ActorID act032 = 32;
+	public const ActorID act033 = 33;
+	public const ActorID act034 = 34;
+	public const ActorID act035 = 35;
+	public const ActorID act036 = 36;
+	public const ActorID act037 = 37;
+	public const ActorID act038 = 38;
+	public const ActorID act039 = 39;
+	public const ActorID act040 = 40;
+	public const ActorID act041 = 41;
+	public const ActorID act042 = 42;
+	public const ActorID act100 = 43;
+	public const ActorID act101 = 44;
+	public const ActorID act102 = 45;
+	public const ActorID mns000 = 46;
+	public const ActorID mns001 = 47;
+	public const ActorID mns002 = 48;
+	public const ActorID mns003 = 49;
+	public const ActorID mns004 = 50;
+	public const ActorID mns005 = 51;
+	public const ActorID mns006 = 52;
+	public const ActorID mns007 = 53;
+	public const ActorID mns008 = 54;
+	public const ActorID mns009 = 55;
+	public const ActorID mns010 = 56;
+	public const ActorID mns011 = 57;
+	public const ActorID mns012 = 58;
+	public const ActorID mns013 = 59;
+	public const ActorID mns014 = 60;
+	public const ActorID mns015 = 61;
+	public const ActorID mns016 = 62;
+	public const ActorID mns017 = 63;
+	public const ActorID mns018 = 64;
+	public const ActorID mns019 = 65;
+	public const ActorID Length = 66;
+}
+

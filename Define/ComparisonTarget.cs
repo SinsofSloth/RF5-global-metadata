@@ -1,0 +1,68 @@
+public enum ComparisonTarget // TypeDefIndex: 10695
+{
+	// Fields
+	public int value__; // 0x0
+	public const ComparisonTarget CurrentTime = 1;
+	public const ComparisonTarget SearchNpc = 2;
+	public const ComparisonTarget PlayerStatus = 3;
+	public const ComparisonTarget OrderTarget = 4;
+	public const ComparisonTarget EquipItem = 5;
+	public const ComparisonTarget TargetStatus = 6;
+	public const ComparisonTarget LovePoint = 7;
+	public const ComparisonTarget IsFirstGreeted = 8;
+	public const ComparisonTarget Weather = 9;
+	public const ComparisonTarget EventScriptAchievedTime = 10;
+	public const ComparisonTarget SearchPartner = 11;
+	public const ComparisonTarget NpcStatus = 12;
+	public const ComparisonTarget CountDailyRecipePan = 13;
+	public const ComparisonTarget CanReceiveClothShop = 14;
+	public const ComparisonTarget RandomPercent = 15;
+	public const ComparisonTarget VictoryCandidateNpcId = 16;
+	public const ComparisonTarget FestivalRank1Id = 17;
+	public const ComparisonTarget FestivalRank2Id = 18;
+	public const ComparisonTarget FestivalRank3Id = 19;
+	public const ComparisonTarget IsHandMadeEventItem = 20;
+	public const ComparisonTarget IsNotEatEventItem = 21;
+	public const ComparisonTarget IsArrangeEventItem = 22;
+	public const ComparisonTarget TasteLevel = 23;
+	public const ComparisonTarget NutritionLevel = 24;
+	public const ComparisonTarget EvaluationLevel = 25;
+	public const ComparisonTarget IsLikeFood = 26;
+	public const ComparisonTarget IsPumpkinFood = 27;
+	public const ComparisonTarget IsSeasonFood = 28;
+	public const ComparisonTarget GrowLevel = 29;
+	public const ComparisonTarget QualityLevel = 30;
+	public const ComparisonTarget AppealLevel = 31;
+	public const ComparisonTarget MaterialLevel = 32;
+	public const ComparisonTarget ComprehensiveLevel = 33;
+	public const ComparisonTarget DifficultyLevel = 34;
+	public const ComparisonTarget HasFishingRod = 35;
+	public const ComparisonTarget HasGold = 36;
+	public const ComparisonTarget IsSendPresent = 37;
+	public const ComparisonTarget IsRecvPresent = 38;
+	public const ComparisonTarget IsPetFesJoinOK = 39;
+	public const ComparisonTarget IsDateReserved = 40;
+	public const ComparisonTarget FacilityLevel = 41;
+	public const ComparisonTarget IsReturnPresent = 42;
+	public const ComparisonTarget IsAcceptWanted = 43;
+	public const ComparisonTarget IsSwimWear = 44;
+	public const ComparisonTarget EquipAppraisal_MaterialNums = 45;
+	public const ComparisonTarget Exclamation_SkillUp = 46;
+	public const ComparisonTarget SweetsTasteLevel = 47;
+	public const ComparisonTarget IsOriginalPresent = 48;
+	public const ComparisonTarget TreasureBoxOpendPer = 49;
+	public const ComparisonTarget ItemCrytuchiNum = 50;
+	public const ComparisonTarget ItemCryhiNum = 51;
+	public const ComparisonTarget ItemCrykooriNum = 52;
+	public const ComparisonTarget ItemCrykazeNum = 53;
+	public const ComparisonTarget ItemCrytiNum = 54;
+	public const ComparisonTarget HasChild = 55;
+	public const ComparisonTarget PartnerNpcNum = 56;
+	public const ComparisonTarget PetMonsterNum = 57;
+	public const ComparisonTarget BathroomBlockedNum = 58;
+	public const ComparisonTarget CanTakeBathTogether = 59;
+	public const ComparisonTarget IsEquipSynthesised = 60;
+	public const ComparisonTarget IsFarmDragonExpansion = 61;
+	public const ComparisonTarget IsEquipArrangeOverride = 62;
+}
+
