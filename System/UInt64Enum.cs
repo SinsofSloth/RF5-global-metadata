@@ -4,39 +4,3 @@ internal enum UInt64Enum // TypeDefIndex: 378
 	public ulong value__; // 0x0
 }
 
-internal enum UInt64Enum // TypeDefIndex: 378
-{
-	// Fields
-	public ulong value__; // 0x0
-}
-
-internal enum UInt64Enum // TypeDefIndex: 378
-{
-	// Fields
-	public ulong value__; // 0x0
-}
-
-internal enum UInt64Enum // TypeDefIndex: 378
-{
-	// Fields
-	public ulong value__; // 0x0
-}
-
-internal enum UInt64Enum // TypeDefIndex: 378
-{
-	// Fields
-	public ulong value__; // 0x0
-}
-
-internal enum UInt64Enum // TypeDefIndex: 378
-{
-	// Fields
-	public ulong value__; // 0x0
-}
-
-internal enum UInt64Enum // TypeDefIndex: 378
-{
-	// Fields
-	public ulong value__; // 0x0
-}
-

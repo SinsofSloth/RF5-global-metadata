@@ -32,3 +32,16 @@ internal static class EnumerableHelpers // TypeDefIndex: 2070
 	*/
 }
 
+internal static class EnumerableHelpers // TypeDefIndex: 2741
+{
+	// Methods
+
+	// RVA: -1 Offset: -1
+	internal static T[] ToArray<T>(IEnumerable<T> source) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x2272A40 Offset: 0x2272B41 VA: 0x2272A40
+	|-EnumerableHelpers.ToArray<object>
+	*/
+}
+

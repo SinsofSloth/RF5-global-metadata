@@ -1,3 +1,91 @@
+[IsReadOnlyAttribute] // RVA: 0xAB440 Offset: 0xAB541 VA: 0xAB440
+[IsByRefLikeAttribute] // RVA: 0xAB440 Offset: 0xAB541 VA: 0xAB440
+[DebuggerDisplayAttribute] // RVA: 0xAB440 Offset: 0xAB541 VA: 0xAB440
+[DebuggerTypeProxyAttribute] // RVA: 0xAB440 Offset: 0xAB541 VA: 0xAB440
+[ObsoleteAttribute] // RVA: 0xAB440 Offset: 0xAB541 VA: 0xAB440
+[DefaultMemberAttribute] // RVA: 0xAB440 Offset: 0xAB541 VA: 0xAB440
+public struct Span<T> // TypeDefIndex: 105
+{
+	// Fields
+	private readonly Pinnable<T> _pinnable; // 0x0
+	private readonly IntPtr _byteOffset; // 0x0
+	private readonly int _length; // 0x0
+
+	// Properties
+	public int Length { get; }
+	public T Item { get; }
+
+	// Methods
+
+	// RVA: -1 Offset: -1
+	public void .ctor(T[] array) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x35D150 Offset: 0x35D251 VA: 0x35D150
+	|-Span<byte>..ctor
+	|
+	|-RVA: 0x35E910 Offset: 0x35EA11 VA: 0x35E910
+	|-Span<object>..ctor
+	*/
+
+	// RVA: -1 Offset: -1
+	public int get_Length() { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x35D160 Offset: 0x35D261 VA: 0x35D160
+	|-Span<byte>.get_Length
+	|
+	|-RVA: 0x35E920 Offset: 0x35EA21 VA: 0x35E920
+	|-Span<object>.get_Length
+	*/
+
+	// RVA: -1 Offset: -1
+	public ref T get_Item(int index) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x35D170 Offset: 0x35D271 VA: 0x35D170
+	|-Span<byte>.get_Item
+	|
+	|-RVA: 0x35E930 Offset: 0x35EA31 VA: 0x35E930
+	|-Span<object>.get_Item
+	*/
+
+	[ObsoleteAttribute] // RVA: 0xB5720 Offset: 0xB5821 VA: 0xB5720
+	// RVA: -1 Offset: -1 Slot: 0
+	public override bool Equals(object obj) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x35D180 Offset: 0x35D281 VA: 0x35D180
+	|-Span<byte>.Equals
+	|
+	|-RVA: 0x35E940 Offset: 0x35EA41 VA: 0x35E940
+	|-Span<object>.Equals
+	*/
+
+	[ObsoleteAttribute] // RVA: 0xB5760 Offset: 0xB5861 VA: 0xB5760
+	// RVA: -1 Offset: -1 Slot: 2
+	public override int GetHashCode() { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x35D190 Offset: 0x35D291 VA: 0x35D190
+	|-Span<byte>.GetHashCode
+	|
+	|-RVA: 0x35E950 Offset: 0x35EA51 VA: 0x35E950
+	|-Span<object>.GetHashCode
+	*/
+
+	// RVA: -1 Offset: -1
+	public static Span<T> op_Implicit(T[] array) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x2683BB0 Offset: 0x2683CB1 VA: 0x2683BB0
+	|-Span<byte>.op_Implicit
+	|
+	|-RVA: 0x268BB80 Offset: 0x268BC81 VA: 0x268BB80
+	|-Span<object>.op_Implicit
+	*/
+}
+
 [IsReadOnlyAttribute] // RVA: 0x1289C0 Offset: 0x128AC1 VA: 0x1289C0
 [DefaultMemberAttribute] // RVA: 0x1289C0 Offset: 0x128AC1 VA: 0x1289C0
 [IsByRefLikeAttribute] // RVA: 0x1289C0 Offset: 0x128AC1 VA: 0x1289C0

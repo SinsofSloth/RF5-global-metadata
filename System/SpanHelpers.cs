@@ -1,3 +1,12 @@
+[ExtensionAttribute] // RVA: 0xAB540 Offset: 0xAB641 VA: 0xAB540
+internal static class SpanHelpers // TypeDefIndex: 107
+{
+	// Methods
+
+	// RVA: 0x2646FA0 Offset: 0x26470A1 VA: 0x2646FA0
+	private static bool IsReferenceOrContainsReferencesCore(Type type) { }
+}
+
 [ExtensionAttribute] // RVA: 0x128B00 Offset: 0x128C01 VA: 0x128B00
 internal static class SpanHelpers // TypeDefIndex: 4384
 {

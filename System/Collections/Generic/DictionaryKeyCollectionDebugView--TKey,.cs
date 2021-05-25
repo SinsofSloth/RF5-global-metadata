@@ -4,33 +4,3 @@ internal sealed class DictionaryKeyCollectionDebugView<TKey, TValue> // TypeDefI
 internal sealed class DictionaryKeyCollectionDebugView<TKey, TValue> // TypeDefIndex: 2073
 {}
 
-internal sealed class DictionaryKeyCollectionDebugView<TKey, TValue> // TypeDefIndex: 1431
-{}
-
-internal sealed class DictionaryKeyCollectionDebugView<TKey, TValue> // TypeDefIndex: 2073
-{}
-
-internal sealed class DictionaryKeyCollectionDebugView<TKey, TValue> // TypeDefIndex: 1431
-{}
-
-internal sealed class DictionaryKeyCollectionDebugView<TKey, TValue> // TypeDefIndex: 2073
-{}
-
-internal sealed class DictionaryKeyCollectionDebugView<TKey, TValue> // TypeDefIndex: 1431
-{}
-
-internal sealed class DictionaryKeyCollectionDebugView<TKey, TValue> // TypeDefIndex: 2073
-{}
-
-internal sealed class DictionaryKeyCollectionDebugView<TKey, TValue> // TypeDefIndex: 1431
-{}
-
-internal sealed class DictionaryKeyCollectionDebugView<TKey, TValue> // TypeDefIndex: 2073
-{}
-
-internal sealed class DictionaryKeyCollectionDebugView<TKey, TValue> // TypeDefIndex: 1431
-{}
-
-internal sealed class DictionaryKeyCollectionDebugView<TKey, TValue> // TypeDefIndex: 2073
-{}
-

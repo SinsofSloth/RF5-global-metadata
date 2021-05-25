@@ -1,1725 +1,3 @@
-[TypeForwardedFromAttribute] // RVA: 0xAB760 Offset: 0xAB861 VA: 0xAB760
-public sealed class Action<T1, T2, T3> : MulticastDelegate // TypeDefIndex: 155
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0530 Offset: 0x28A0631 VA: 0x28A0530
-	|-Action<object, bool, DebugScreenCapture>..ctor
-	|
-	|-RVA: 0x28A0CA0 Offset: 0x28A0DA1 VA: 0x28A0CA0
-	|-Action<object, object, object>..ctor
-	|
-	|-RVA: 0x28A1150 Offset: 0x28A1251 VA: 0x28A1150
-	|-Action<object, object, Playable>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0550 Offset: 0x28A0651 VA: 0x28A0550
-	|-Action<object, bool, DebugScreenCapture>.Invoke
-	|-Action<string, bool, DebugScreenCapture>.Invoke
-	|
-	|-RVA: 0x28A0CC0 Offset: 0x28A0DC1 VA: 0x28A0CC0
-	|-Action<object, object, object>.Invoke
-	|
-	|-RVA: 0x28A1170 Offset: 0x28A1271 VA: 0x28A1170
-	|-Action<object, object, Playable>.Invoke
-	|-Action<TimelineClip, GameObject, Playable>.Invoke
-	|-Action<TrackAsset, GameObject, Playable>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0BD0 Offset: 0x28A0CD1 VA: 0x28A0BD0
-	|-Action<object, bool, DebugScreenCapture>.BeginInvoke
-	|
-	|-RVA: 0x28A1110 Offset: 0x28A1211 VA: 0x28A1110
-	|-Action<object, object, object>.BeginInvoke
-	|
-	|-RVA: 0x28A15E0 Offset: 0x28A16E1 VA: 0x28A15E0
-	|-Action<object, object, Playable>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0C90 Offset: 0x28A0D91 VA: 0x28A0C90
-	|-Action<object, bool, DebugScreenCapture>.EndInvoke
-	|
-	|-RVA: 0x28A1140 Offset: 0x28A1241 VA: 0x28A1140
-	|-Action<object, object, object>.EndInvoke
-	|
-	|-RVA: 0x28A1680 Offset: 0x28A1781 VA: 0x28A1680
-	|-Action<object, object, Playable>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6> : MulticastDelegate // TypeDefIndex: 163
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A35D0 Offset: 0x28A36D1 VA: 0x28A35D0
-	|-Action<object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A35F0 Offset: 0x28A36F1 VA: 0x28A35F0
-	|-Action<object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A3AE0 Offset: 0x28A3BE1 VA: 0x28A3AE0
-	|-Action<object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A3B20 Offset: 0x28A3C21 VA: 0x28A3B20
-	|-Action<object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8> : MulticastDelegate // TypeDefIndex: 165
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A40A0 Offset: 0x28A41A1 VA: 0x28A40A0
-	|-Action<object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A40C0 Offset: 0x28A41C1 VA: 0x28A40C0
-	|-Action<object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A45C0 Offset: 0x28A46C1 VA: 0x28A45C0
-	|-Action<object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4600 Offset: 0x28A4701 VA: 0x28A4600
-	|-Action<object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9> : MulticastDelegate // TypeDefIndex: 2143
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4610 Offset: 0x28A4711 VA: 0x28A4610
-	|-Action<object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4630 Offset: 0x28A4731 VA: 0x28A4630
-	|-Action<object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4B40 Offset: 0x28A4C41 VA: 0x28A4B40
-	|-Action<object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4B80 Offset: 0x28A4C81 VA: 0x28A4B80
-	|-Action<object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> : MulticastDelegate // TypeDefIndex: 2145
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893460 Offset: 0x2893561 VA: 0x2893460
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893480 Offset: 0x2893581 VA: 0x2893480
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893990 Offset: 0x2893A91 VA: 0x2893990
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28939E0 Offset: 0x2893AE1 VA: 0x28939E0
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> : MulticastDelegate // TypeDefIndex: 2147
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893F70 Offset: 0x2894071 VA: 0x2893F70
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893F90 Offset: 0x2894091 VA: 0x2893F90
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28944D0 Offset: 0x28945D1 VA: 0x28944D0
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2894530 Offset: 0x2894631 VA: 0x2894530
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> : MulticastDelegate // TypeDefIndex: 2149
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2894B50 Offset: 0x2894C51 VA: 0x2894B50
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, T14 arg14, T15 arg15) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2894B70 Offset: 0x2894C71 VA: 0x2894B70
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, T14 arg14, T15 arg15, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2895140 Offset: 0x2895241 VA: 0x2895140
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28951A0 Offset: 0x28952A1 VA: 0x28951A0
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-[TypeForwardedFromAttribute] // RVA: 0xAB760 Offset: 0xAB861 VA: 0xAB760
-public sealed class Action<T1, T2, T3> : MulticastDelegate // TypeDefIndex: 155
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0530 Offset: 0x28A0631 VA: 0x28A0530
-	|-Action<object, bool, DebugScreenCapture>..ctor
-	|
-	|-RVA: 0x28A0CA0 Offset: 0x28A0DA1 VA: 0x28A0CA0
-	|-Action<object, object, object>..ctor
-	|
-	|-RVA: 0x28A1150 Offset: 0x28A1251 VA: 0x28A1150
-	|-Action<object, object, Playable>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0550 Offset: 0x28A0651 VA: 0x28A0550
-	|-Action<object, bool, DebugScreenCapture>.Invoke
-	|-Action<string, bool, DebugScreenCapture>.Invoke
-	|
-	|-RVA: 0x28A0CC0 Offset: 0x28A0DC1 VA: 0x28A0CC0
-	|-Action<object, object, object>.Invoke
-	|
-	|-RVA: 0x28A1170 Offset: 0x28A1271 VA: 0x28A1170
-	|-Action<object, object, Playable>.Invoke
-	|-Action<TimelineClip, GameObject, Playable>.Invoke
-	|-Action<TrackAsset, GameObject, Playable>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0BD0 Offset: 0x28A0CD1 VA: 0x28A0BD0
-	|-Action<object, bool, DebugScreenCapture>.BeginInvoke
-	|
-	|-RVA: 0x28A1110 Offset: 0x28A1211 VA: 0x28A1110
-	|-Action<object, object, object>.BeginInvoke
-	|
-	|-RVA: 0x28A15E0 Offset: 0x28A16E1 VA: 0x28A15E0
-	|-Action<object, object, Playable>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0C90 Offset: 0x28A0D91 VA: 0x28A0C90
-	|-Action<object, bool, DebugScreenCapture>.EndInvoke
-	|
-	|-RVA: 0x28A1140 Offset: 0x28A1241 VA: 0x28A1140
-	|-Action<object, object, object>.EndInvoke
-	|
-	|-RVA: 0x28A1680 Offset: 0x28A1781 VA: 0x28A1680
-	|-Action<object, object, Playable>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6> : MulticastDelegate // TypeDefIndex: 163
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A35D0 Offset: 0x28A36D1 VA: 0x28A35D0
-	|-Action<object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A35F0 Offset: 0x28A36F1 VA: 0x28A35F0
-	|-Action<object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A3AE0 Offset: 0x28A3BE1 VA: 0x28A3AE0
-	|-Action<object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A3B20 Offset: 0x28A3C21 VA: 0x28A3B20
-	|-Action<object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8> : MulticastDelegate // TypeDefIndex: 165
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A40A0 Offset: 0x28A41A1 VA: 0x28A40A0
-	|-Action<object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A40C0 Offset: 0x28A41C1 VA: 0x28A40C0
-	|-Action<object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A45C0 Offset: 0x28A46C1 VA: 0x28A45C0
-	|-Action<object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4600 Offset: 0x28A4701 VA: 0x28A4600
-	|-Action<object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9> : MulticastDelegate // TypeDefIndex: 2143
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4610 Offset: 0x28A4711 VA: 0x28A4610
-	|-Action<object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4630 Offset: 0x28A4731 VA: 0x28A4630
-	|-Action<object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4B40 Offset: 0x28A4C41 VA: 0x28A4B40
-	|-Action<object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4B80 Offset: 0x28A4C81 VA: 0x28A4B80
-	|-Action<object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> : MulticastDelegate // TypeDefIndex: 2145
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893460 Offset: 0x2893561 VA: 0x2893460
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893480 Offset: 0x2893581 VA: 0x2893480
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893990 Offset: 0x2893A91 VA: 0x2893990
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28939E0 Offset: 0x2893AE1 VA: 0x28939E0
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> : MulticastDelegate // TypeDefIndex: 2147
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893F70 Offset: 0x2894071 VA: 0x2893F70
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893F90 Offset: 0x2894091 VA: 0x2893F90
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28944D0 Offset: 0x28945D1 VA: 0x28944D0
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2894530 Offset: 0x2894631 VA: 0x2894530
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> : MulticastDelegate // TypeDefIndex: 2149
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2894B50 Offset: 0x2894C51 VA: 0x2894B50
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, T14 arg14, T15 arg15) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2894B70 Offset: 0x2894C71 VA: 0x2894B70
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, T14 arg14, T15 arg15, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2895140 Offset: 0x2895241 VA: 0x2895140
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28951A0 Offset: 0x28952A1 VA: 0x28951A0
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-[TypeForwardedFromAttribute] // RVA: 0xAB760 Offset: 0xAB861 VA: 0xAB760
-public sealed class Action<T1, T2, T3> : MulticastDelegate // TypeDefIndex: 155
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0530 Offset: 0x28A0631 VA: 0x28A0530
-	|-Action<object, bool, DebugScreenCapture>..ctor
-	|
-	|-RVA: 0x28A0CA0 Offset: 0x28A0DA1 VA: 0x28A0CA0
-	|-Action<object, object, object>..ctor
-	|
-	|-RVA: 0x28A1150 Offset: 0x28A1251 VA: 0x28A1150
-	|-Action<object, object, Playable>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0550 Offset: 0x28A0651 VA: 0x28A0550
-	|-Action<object, bool, DebugScreenCapture>.Invoke
-	|-Action<string, bool, DebugScreenCapture>.Invoke
-	|
-	|-RVA: 0x28A0CC0 Offset: 0x28A0DC1 VA: 0x28A0CC0
-	|-Action<object, object, object>.Invoke
-	|
-	|-RVA: 0x28A1170 Offset: 0x28A1271 VA: 0x28A1170
-	|-Action<object, object, Playable>.Invoke
-	|-Action<TimelineClip, GameObject, Playable>.Invoke
-	|-Action<TrackAsset, GameObject, Playable>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0BD0 Offset: 0x28A0CD1 VA: 0x28A0BD0
-	|-Action<object, bool, DebugScreenCapture>.BeginInvoke
-	|
-	|-RVA: 0x28A1110 Offset: 0x28A1211 VA: 0x28A1110
-	|-Action<object, object, object>.BeginInvoke
-	|
-	|-RVA: 0x28A15E0 Offset: 0x28A16E1 VA: 0x28A15E0
-	|-Action<object, object, Playable>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0C90 Offset: 0x28A0D91 VA: 0x28A0C90
-	|-Action<object, bool, DebugScreenCapture>.EndInvoke
-	|
-	|-RVA: 0x28A1140 Offset: 0x28A1241 VA: 0x28A1140
-	|-Action<object, object, object>.EndInvoke
-	|
-	|-RVA: 0x28A1680 Offset: 0x28A1781 VA: 0x28A1680
-	|-Action<object, object, Playable>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6> : MulticastDelegate // TypeDefIndex: 163
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A35D0 Offset: 0x28A36D1 VA: 0x28A35D0
-	|-Action<object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A35F0 Offset: 0x28A36F1 VA: 0x28A35F0
-	|-Action<object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A3AE0 Offset: 0x28A3BE1 VA: 0x28A3AE0
-	|-Action<object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A3B20 Offset: 0x28A3C21 VA: 0x28A3B20
-	|-Action<object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8> : MulticastDelegate // TypeDefIndex: 165
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A40A0 Offset: 0x28A41A1 VA: 0x28A40A0
-	|-Action<object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A40C0 Offset: 0x28A41C1 VA: 0x28A40C0
-	|-Action<object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A45C0 Offset: 0x28A46C1 VA: 0x28A45C0
-	|-Action<object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4600 Offset: 0x28A4701 VA: 0x28A4600
-	|-Action<object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9> : MulticastDelegate // TypeDefIndex: 2143
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4610 Offset: 0x28A4711 VA: 0x28A4610
-	|-Action<object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4630 Offset: 0x28A4731 VA: 0x28A4630
-	|-Action<object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4B40 Offset: 0x28A4C41 VA: 0x28A4B40
-	|-Action<object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4B80 Offset: 0x28A4C81 VA: 0x28A4B80
-	|-Action<object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> : MulticastDelegate // TypeDefIndex: 2145
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893460 Offset: 0x2893561 VA: 0x2893460
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893480 Offset: 0x2893581 VA: 0x2893480
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893990 Offset: 0x2893A91 VA: 0x2893990
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28939E0 Offset: 0x2893AE1 VA: 0x28939E0
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> : MulticastDelegate // TypeDefIndex: 2147
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893F70 Offset: 0x2894071 VA: 0x2893F70
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893F90 Offset: 0x2894091 VA: 0x2893F90
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28944D0 Offset: 0x28945D1 VA: 0x28944D0
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2894530 Offset: 0x2894631 VA: 0x2894530
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> : MulticastDelegate // TypeDefIndex: 2149
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2894B50 Offset: 0x2894C51 VA: 0x2894B50
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, T14 arg14, T15 arg15) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2894B70 Offset: 0x2894C71 VA: 0x2894B70
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, T14 arg14, T15 arg15, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2895140 Offset: 0x2895241 VA: 0x2895140
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28951A0 Offset: 0x28952A1 VA: 0x28951A0
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-[TypeForwardedFromAttribute] // RVA: 0xAB760 Offset: 0xAB861 VA: 0xAB760
-public sealed class Action<T1, T2, T3> : MulticastDelegate // TypeDefIndex: 155
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0530 Offset: 0x28A0631 VA: 0x28A0530
-	|-Action<object, bool, DebugScreenCapture>..ctor
-	|
-	|-RVA: 0x28A0CA0 Offset: 0x28A0DA1 VA: 0x28A0CA0
-	|-Action<object, object, object>..ctor
-	|
-	|-RVA: 0x28A1150 Offset: 0x28A1251 VA: 0x28A1150
-	|-Action<object, object, Playable>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0550 Offset: 0x28A0651 VA: 0x28A0550
-	|-Action<object, bool, DebugScreenCapture>.Invoke
-	|-Action<string, bool, DebugScreenCapture>.Invoke
-	|
-	|-RVA: 0x28A0CC0 Offset: 0x28A0DC1 VA: 0x28A0CC0
-	|-Action<object, object, object>.Invoke
-	|
-	|-RVA: 0x28A1170 Offset: 0x28A1271 VA: 0x28A1170
-	|-Action<object, object, Playable>.Invoke
-	|-Action<TimelineClip, GameObject, Playable>.Invoke
-	|-Action<TrackAsset, GameObject, Playable>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0BD0 Offset: 0x28A0CD1 VA: 0x28A0BD0
-	|-Action<object, bool, DebugScreenCapture>.BeginInvoke
-	|
-	|-RVA: 0x28A1110 Offset: 0x28A1211 VA: 0x28A1110
-	|-Action<object, object, object>.BeginInvoke
-	|
-	|-RVA: 0x28A15E0 Offset: 0x28A16E1 VA: 0x28A15E0
-	|-Action<object, object, Playable>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0C90 Offset: 0x28A0D91 VA: 0x28A0C90
-	|-Action<object, bool, DebugScreenCapture>.EndInvoke
-	|
-	|-RVA: 0x28A1140 Offset: 0x28A1241 VA: 0x28A1140
-	|-Action<object, object, object>.EndInvoke
-	|
-	|-RVA: 0x28A1680 Offset: 0x28A1781 VA: 0x28A1680
-	|-Action<object, object, Playable>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6> : MulticastDelegate // TypeDefIndex: 163
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A35D0 Offset: 0x28A36D1 VA: 0x28A35D0
-	|-Action<object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A35F0 Offset: 0x28A36F1 VA: 0x28A35F0
-	|-Action<object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A3AE0 Offset: 0x28A3BE1 VA: 0x28A3AE0
-	|-Action<object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A3B20 Offset: 0x28A3C21 VA: 0x28A3B20
-	|-Action<object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8> : MulticastDelegate // TypeDefIndex: 165
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A40A0 Offset: 0x28A41A1 VA: 0x28A40A0
-	|-Action<object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A40C0 Offset: 0x28A41C1 VA: 0x28A40C0
-	|-Action<object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A45C0 Offset: 0x28A46C1 VA: 0x28A45C0
-	|-Action<object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4600 Offset: 0x28A4701 VA: 0x28A4600
-	|-Action<object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9> : MulticastDelegate // TypeDefIndex: 2143
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4610 Offset: 0x28A4711 VA: 0x28A4610
-	|-Action<object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4630 Offset: 0x28A4731 VA: 0x28A4630
-	|-Action<object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4B40 Offset: 0x28A4C41 VA: 0x28A4B40
-	|-Action<object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4B80 Offset: 0x28A4C81 VA: 0x28A4B80
-	|-Action<object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> : MulticastDelegate // TypeDefIndex: 2145
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893460 Offset: 0x2893561 VA: 0x2893460
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893480 Offset: 0x2893581 VA: 0x2893480
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893990 Offset: 0x2893A91 VA: 0x2893990
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28939E0 Offset: 0x2893AE1 VA: 0x28939E0
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> : MulticastDelegate // TypeDefIndex: 2147
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893F70 Offset: 0x2894071 VA: 0x2893F70
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893F90 Offset: 0x2894091 VA: 0x2893F90
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28944D0 Offset: 0x28945D1 VA: 0x28944D0
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2894530 Offset: 0x2894631 VA: 0x2894530
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> : MulticastDelegate // TypeDefIndex: 2149
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2894B50 Offset: 0x2894C51 VA: 0x2894B50
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, T14 arg14, T15 arg15) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2894B70 Offset: 0x2894C71 VA: 0x2894B70
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, T14 arg14, T15 arg15, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2895140 Offset: 0x2895241 VA: 0x2895140
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28951A0 Offset: 0x28952A1 VA: 0x28951A0
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-[TypeForwardedFromAttribute] // RVA: 0xAB760 Offset: 0xAB861 VA: 0xAB760
-public sealed class Action<T1, T2, T3> : MulticastDelegate // TypeDefIndex: 155
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0530 Offset: 0x28A0631 VA: 0x28A0530
-	|-Action<object, bool, DebugScreenCapture>..ctor
-	|
-	|-RVA: 0x28A0CA0 Offset: 0x28A0DA1 VA: 0x28A0CA0
-	|-Action<object, object, object>..ctor
-	|
-	|-RVA: 0x28A1150 Offset: 0x28A1251 VA: 0x28A1150
-	|-Action<object, object, Playable>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0550 Offset: 0x28A0651 VA: 0x28A0550
-	|-Action<object, bool, DebugScreenCapture>.Invoke
-	|-Action<string, bool, DebugScreenCapture>.Invoke
-	|
-	|-RVA: 0x28A0CC0 Offset: 0x28A0DC1 VA: 0x28A0CC0
-	|-Action<object, object, object>.Invoke
-	|
-	|-RVA: 0x28A1170 Offset: 0x28A1271 VA: 0x28A1170
-	|-Action<object, object, Playable>.Invoke
-	|-Action<TimelineClip, GameObject, Playable>.Invoke
-	|-Action<TrackAsset, GameObject, Playable>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0BD0 Offset: 0x28A0CD1 VA: 0x28A0BD0
-	|-Action<object, bool, DebugScreenCapture>.BeginInvoke
-	|
-	|-RVA: 0x28A1110 Offset: 0x28A1211 VA: 0x28A1110
-	|-Action<object, object, object>.BeginInvoke
-	|
-	|-RVA: 0x28A15E0 Offset: 0x28A16E1 VA: 0x28A15E0
-	|-Action<object, object, Playable>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0C90 Offset: 0x28A0D91 VA: 0x28A0C90
-	|-Action<object, bool, DebugScreenCapture>.EndInvoke
-	|
-	|-RVA: 0x28A1140 Offset: 0x28A1241 VA: 0x28A1140
-	|-Action<object, object, object>.EndInvoke
-	|
-	|-RVA: 0x28A1680 Offset: 0x28A1781 VA: 0x28A1680
-	|-Action<object, object, Playable>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6> : MulticastDelegate // TypeDefIndex: 163
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A35D0 Offset: 0x28A36D1 VA: 0x28A35D0
-	|-Action<object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A35F0 Offset: 0x28A36F1 VA: 0x28A35F0
-	|-Action<object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A3AE0 Offset: 0x28A3BE1 VA: 0x28A3AE0
-	|-Action<object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A3B20 Offset: 0x28A3C21 VA: 0x28A3B20
-	|-Action<object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8> : MulticastDelegate // TypeDefIndex: 165
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A40A0 Offset: 0x28A41A1 VA: 0x28A40A0
-	|-Action<object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A40C0 Offset: 0x28A41C1 VA: 0x28A40C0
-	|-Action<object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A45C0 Offset: 0x28A46C1 VA: 0x28A45C0
-	|-Action<object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4600 Offset: 0x28A4701 VA: 0x28A4600
-	|-Action<object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9> : MulticastDelegate // TypeDefIndex: 2143
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4610 Offset: 0x28A4711 VA: 0x28A4610
-	|-Action<object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4630 Offset: 0x28A4731 VA: 0x28A4630
-	|-Action<object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4B40 Offset: 0x28A4C41 VA: 0x28A4B40
-	|-Action<object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4B80 Offset: 0x28A4C81 VA: 0x28A4B80
-	|-Action<object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> : MulticastDelegate // TypeDefIndex: 2145
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893460 Offset: 0x2893561 VA: 0x2893460
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893480 Offset: 0x2893581 VA: 0x2893480
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893990 Offset: 0x2893A91 VA: 0x2893990
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28939E0 Offset: 0x2893AE1 VA: 0x28939E0
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> : MulticastDelegate // TypeDefIndex: 2147
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893F70 Offset: 0x2894071 VA: 0x2893F70
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893F90 Offset: 0x2894091 VA: 0x2893F90
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28944D0 Offset: 0x28945D1 VA: 0x28944D0
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2894530 Offset: 0x2894631 VA: 0x2894530
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> : MulticastDelegate // TypeDefIndex: 2149
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2894B50 Offset: 0x2894C51 VA: 0x2894B50
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, T14 arg14, T15 arg15) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2894B70 Offset: 0x2894C71 VA: 0x2894B70
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, T14 arg14, T15 arg15, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2895140 Offset: 0x2895241 VA: 0x2895140
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28951A0 Offset: 0x28952A1 VA: 0x28951A0
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-[TypeForwardedFromAttribute] // RVA: 0xAB760 Offset: 0xAB861 VA: 0xAB760
-public sealed class Action<T1, T2, T3> : MulticastDelegate // TypeDefIndex: 155
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0530 Offset: 0x28A0631 VA: 0x28A0530
-	|-Action<object, bool, DebugScreenCapture>..ctor
-	|
-	|-RVA: 0x28A0CA0 Offset: 0x28A0DA1 VA: 0x28A0CA0
-	|-Action<object, object, object>..ctor
-	|
-	|-RVA: 0x28A1150 Offset: 0x28A1251 VA: 0x28A1150
-	|-Action<object, object, Playable>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0550 Offset: 0x28A0651 VA: 0x28A0550
-	|-Action<object, bool, DebugScreenCapture>.Invoke
-	|-Action<string, bool, DebugScreenCapture>.Invoke
-	|
-	|-RVA: 0x28A0CC0 Offset: 0x28A0DC1 VA: 0x28A0CC0
-	|-Action<object, object, object>.Invoke
-	|
-	|-RVA: 0x28A1170 Offset: 0x28A1271 VA: 0x28A1170
-	|-Action<object, object, Playable>.Invoke
-	|-Action<TimelineClip, GameObject, Playable>.Invoke
-	|-Action<TrackAsset, GameObject, Playable>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0BD0 Offset: 0x28A0CD1 VA: 0x28A0BD0
-	|-Action<object, bool, DebugScreenCapture>.BeginInvoke
-	|
-	|-RVA: 0x28A1110 Offset: 0x28A1211 VA: 0x28A1110
-	|-Action<object, object, object>.BeginInvoke
-	|
-	|-RVA: 0x28A15E0 Offset: 0x28A16E1 VA: 0x28A15E0
-	|-Action<object, object, Playable>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A0C90 Offset: 0x28A0D91 VA: 0x28A0C90
-	|-Action<object, bool, DebugScreenCapture>.EndInvoke
-	|
-	|-RVA: 0x28A1140 Offset: 0x28A1241 VA: 0x28A1140
-	|-Action<object, object, object>.EndInvoke
-	|
-	|-RVA: 0x28A1680 Offset: 0x28A1781 VA: 0x28A1680
-	|-Action<object, object, Playable>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6> : MulticastDelegate // TypeDefIndex: 163
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A35D0 Offset: 0x28A36D1 VA: 0x28A35D0
-	|-Action<object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A35F0 Offset: 0x28A36F1 VA: 0x28A35F0
-	|-Action<object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A3AE0 Offset: 0x28A3BE1 VA: 0x28A3AE0
-	|-Action<object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A3B20 Offset: 0x28A3C21 VA: 0x28A3B20
-	|-Action<object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8> : MulticastDelegate // TypeDefIndex: 165
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A40A0 Offset: 0x28A41A1 VA: 0x28A40A0
-	|-Action<object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A40C0 Offset: 0x28A41C1 VA: 0x28A40C0
-	|-Action<object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A45C0 Offset: 0x28A46C1 VA: 0x28A45C0
-	|-Action<object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4600 Offset: 0x28A4701 VA: 0x28A4600
-	|-Action<object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9> : MulticastDelegate // TypeDefIndex: 2143
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4610 Offset: 0x28A4711 VA: 0x28A4610
-	|-Action<object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4630 Offset: 0x28A4731 VA: 0x28A4630
-	|-Action<object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4B40 Offset: 0x28A4C41 VA: 0x28A4B40
-	|-Action<object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28A4B80 Offset: 0x28A4C81 VA: 0x28A4B80
-	|-Action<object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> : MulticastDelegate // TypeDefIndex: 2145
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893460 Offset: 0x2893561 VA: 0x2893460
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893480 Offset: 0x2893581 VA: 0x2893480
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893990 Offset: 0x2893A91 VA: 0x2893990
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28939E0 Offset: 0x2893AE1 VA: 0x28939E0
-	|-Action<object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> : MulticastDelegate // TypeDefIndex: 2147
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893F70 Offset: 0x2894071 VA: 0x2893F70
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2893F90 Offset: 0x2894091 VA: 0x2893F90
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28944D0 Offset: 0x28945D1 VA: 0x28944D0
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2894530 Offset: 0x2894631 VA: 0x2894530
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
-public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> : MulticastDelegate // TypeDefIndex: 2149
-{
-	// Methods
-
-	// RVA: -1 Offset: -1
-	public void .ctor(object object, IntPtr method) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2894B50 Offset: 0x2894C51 VA: 0x2894B50
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>..ctor
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 13
-	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, T14 arg14, T15 arg15) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2894B70 Offset: 0x2894C71 VA: 0x2894B70
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.Invoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 14
-	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, T14 arg14, T15 arg15, AsyncCallback callback, object object) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x2895140 Offset: 0x2895241 VA: 0x2895140
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
-	*/
-
-	// RVA: -1 Offset: -1 Slot: 15
-	public virtual void EndInvoke(IAsyncResult result) { }
-	/* GenericInstMethod :
-	|
-	|-RVA: 0x28951A0 Offset: 0x28952A1 VA: 0x28951A0
-	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
-	*/
-}
-
 [TypeForwardedFromAttribute] // RVA: 0xAB720 Offset: 0xAB821 VA: 0xAB720
 public sealed class Action<T1, T2> : MulticastDelegate // TypeDefIndex: 154
 {
@@ -1953,6 +231,71 @@ public sealed class Action<T1, T2> : MulticastDelegate // TypeDefIndex: 154
 	*/
 }
 
+[TypeForwardedFromAttribute] // RVA: 0xAB760 Offset: 0xAB861 VA: 0xAB760
+public sealed class Action<T1, T2, T3> : MulticastDelegate // TypeDefIndex: 155
+{
+	// Methods
+
+	// RVA: -1 Offset: -1
+	public void .ctor(object object, IntPtr method) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x28A0530 Offset: 0x28A0631 VA: 0x28A0530
+	|-Action<object, bool, DebugScreenCapture>..ctor
+	|
+	|-RVA: 0x28A0CA0 Offset: 0x28A0DA1 VA: 0x28A0CA0
+	|-Action<object, object, object>..ctor
+	|
+	|-RVA: 0x28A1150 Offset: 0x28A1251 VA: 0x28A1150
+	|-Action<object, object, Playable>..ctor
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 13
+	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x28A0550 Offset: 0x28A0651 VA: 0x28A0550
+	|-Action<object, bool, DebugScreenCapture>.Invoke
+	|-Action<string, bool, DebugScreenCapture>.Invoke
+	|
+	|-RVA: 0x28A0CC0 Offset: 0x28A0DC1 VA: 0x28A0CC0
+	|-Action<object, object, object>.Invoke
+	|
+	|-RVA: 0x28A1170 Offset: 0x28A1271 VA: 0x28A1170
+	|-Action<object, object, Playable>.Invoke
+	|-Action<TimelineClip, GameObject, Playable>.Invoke
+	|-Action<TrackAsset, GameObject, Playable>.Invoke
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 14
+	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, AsyncCallback callback, object object) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x28A0BD0 Offset: 0x28A0CD1 VA: 0x28A0BD0
+	|-Action<object, bool, DebugScreenCapture>.BeginInvoke
+	|
+	|-RVA: 0x28A1110 Offset: 0x28A1211 VA: 0x28A1110
+	|-Action<object, object, object>.BeginInvoke
+	|
+	|-RVA: 0x28A15E0 Offset: 0x28A16E1 VA: 0x28A15E0
+	|-Action<object, object, Playable>.BeginInvoke
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 15
+	public virtual void EndInvoke(IAsyncResult result) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x28A0C90 Offset: 0x28A0D91 VA: 0x28A0C90
+	|-Action<object, bool, DebugScreenCapture>.EndInvoke
+	|
+	|-RVA: 0x28A1140 Offset: 0x28A1241 VA: 0x28A1140
+	|-Action<object, object, object>.EndInvoke
+	|
+	|-RVA: 0x28A1680 Offset: 0x28A1781 VA: 0x28A1680
+	|-Action<object, object, Playable>.EndInvoke
+	*/
+}
+
 [TypeForwardedFromAttribute] // RVA: 0xAB7A0 Offset: 0xAB8A1 VA: 0xAB7A0
 public sealed class Action<T1, T2, T3, T4> : MulticastDelegate // TypeDefIndex: 156
 {
@@ -2081,6 +424,43 @@ public sealed class Action<T1, T2, T3, T4, T5> : MulticastDelegate // TypeDefInd
 	*/
 }
 
+public sealed class Action<T1, T2, T3, T4, T5, T6> : MulticastDelegate // TypeDefIndex: 163
+{
+	// Methods
+
+	// RVA: -1 Offset: -1
+	public void .ctor(object object, IntPtr method) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x28A35D0 Offset: 0x28A36D1 VA: 0x28A35D0
+	|-Action<object, object, object, object, object, object>..ctor
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 13
+	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x28A35F0 Offset: 0x28A36F1 VA: 0x28A35F0
+	|-Action<object, object, object, object, object, object>.Invoke
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 14
+	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, AsyncCallback callback, object object) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x28A3AE0 Offset: 0x28A3BE1 VA: 0x28A3AE0
+	|-Action<object, object, object, object, object, object>.BeginInvoke
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 15
+	public virtual void EndInvoke(IAsyncResult result) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x28A3B20 Offset: 0x28A3C21 VA: 0x28A3B20
+	|-Action<object, object, object, object, object, object>.EndInvoke
+	*/
+}
+
 public sealed class Action<T1, T2, T3, T4, T5, T6, T7> : MulticastDelegate // TypeDefIndex: 164
 {
 	// Methods
@@ -2115,6 +495,80 @@ public sealed class Action<T1, T2, T3, T4, T5, T6, T7> : MulticastDelegate // Ty
 	|
 	|-RVA: 0x28A4090 Offset: 0x28A4191 VA: 0x28A4090
 	|-Action<object, object, object, object, object, object, object>.EndInvoke
+	*/
+}
+
+public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8> : MulticastDelegate // TypeDefIndex: 165
+{
+	// Methods
+
+	// RVA: -1 Offset: -1
+	public void .ctor(object object, IntPtr method) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x28A40A0 Offset: 0x28A41A1 VA: 0x28A40A0
+	|-Action<object, object, object, object, object, object, object, object>..ctor
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 13
+	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x28A40C0 Offset: 0x28A41C1 VA: 0x28A40C0
+	|-Action<object, object, object, object, object, object, object, object>.Invoke
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 14
+	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, AsyncCallback callback, object object) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x28A45C0 Offset: 0x28A46C1 VA: 0x28A45C0
+	|-Action<object, object, object, object, object, object, object, object>.BeginInvoke
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 15
+	public virtual void EndInvoke(IAsyncResult result) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x28A4600 Offset: 0x28A4701 VA: 0x28A4600
+	|-Action<object, object, object, object, object, object, object, object>.EndInvoke
+	*/
+}
+
+public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9> : MulticastDelegate // TypeDefIndex: 2143
+{
+	// Methods
+
+	// RVA: -1 Offset: -1
+	public void .ctor(object object, IntPtr method) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x28A4610 Offset: 0x28A4711 VA: 0x28A4610
+	|-Action<object, object, object, object, object, object, object, object, object>..ctor
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 13
+	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x28A4630 Offset: 0x28A4731 VA: 0x28A4630
+	|-Action<object, object, object, object, object, object, object, object, object>.Invoke
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 14
+	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, AsyncCallback callback, object object) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x28A4B40 Offset: 0x28A4C41 VA: 0x28A4B40
+	|-Action<object, object, object, object, object, object, object, object, object>.BeginInvoke
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 15
+	public virtual void EndInvoke(IAsyncResult result) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x28A4B80 Offset: 0x28A4C81 VA: 0x28A4B80
+	|-Action<object, object, object, object, object, object, object, object, object>.EndInvoke
 	*/
 }
 
@@ -2155,6 +609,43 @@ public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> : MulticastD
 	*/
 }
 
+public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> : MulticastDelegate // TypeDefIndex: 2145
+{
+	// Methods
+
+	// RVA: -1 Offset: -1
+	public void .ctor(object object, IntPtr method) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x2893460 Offset: 0x2893561 VA: 0x2893460
+	|-Action<object, object, object, object, object, object, object, object, object, object, object>..ctor
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 13
+	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x2893480 Offset: 0x2893581 VA: 0x2893480
+	|-Action<object, object, object, object, object, object, object, object, object, object, object>.Invoke
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 14
+	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, AsyncCallback callback, object object) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x2893990 Offset: 0x2893A91 VA: 0x2893990
+	|-Action<object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 15
+	public virtual void EndInvoke(IAsyncResult result) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x28939E0 Offset: 0x2893AE1 VA: 0x28939E0
+	|-Action<object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
+	*/
+}
+
 public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12> : MulticastDelegate // TypeDefIndex: 2146
 {
 	// Methods
@@ -2192,6 +683,43 @@ public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12> : 
 	*/
 }
 
+public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> : MulticastDelegate // TypeDefIndex: 2147
+{
+	// Methods
+
+	// RVA: -1 Offset: -1
+	public void .ctor(object object, IntPtr method) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x2893F70 Offset: 0x2894071 VA: 0x2893F70
+	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>..ctor
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 13
+	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x2893F90 Offset: 0x2894091 VA: 0x2893F90
+	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.Invoke
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 14
+	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, AsyncCallback callback, object object) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x28944D0 Offset: 0x28945D1 VA: 0x28944D0
+	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 15
+	public virtual void EndInvoke(IAsyncResult result) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x2894530 Offset: 0x2894631 VA: 0x2894530
+	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
+	*/
+}
+
 public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14> : MulticastDelegate // TypeDefIndex: 2148
 {
 	// Methods
@@ -2226,6 +754,43 @@ public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T1
 	|
 	|-RVA: 0x2894B40 Offset: 0x2894C41 VA: 0x2894B40
 	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
+	*/
+}
+
+public sealed class Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> : MulticastDelegate // TypeDefIndex: 2149
+{
+	// Methods
+
+	// RVA: -1 Offset: -1
+	public void .ctor(object object, IntPtr method) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x2894B50 Offset: 0x2894C51 VA: 0x2894B50
+	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>..ctor
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 13
+	public virtual void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, T14 arg14, T15 arg15) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x2894B70 Offset: 0x2894C71 VA: 0x2894B70
+	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.Invoke
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 14
+	public virtual IAsyncResult BeginInvoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, T14 arg14, T15 arg15, AsyncCallback callback, object object) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x2895140 Offset: 0x2895241 VA: 0x2895140
+	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.BeginInvoke
+	*/
+
+	// RVA: -1 Offset: -1 Slot: 15
+	public virtual void EndInvoke(IAsyncResult result) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x28951A0 Offset: 0x28952A1 VA: 0x28951A0
+	|-Action<object, object, object, object, object, object, object, object, object, object, object, object, object, object, object>.EndInvoke
 	*/
 }
 
